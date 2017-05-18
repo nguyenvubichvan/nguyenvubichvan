@@ -1,0 +1,216 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>menu dọc</title>
+<link rel="stylesheet" 
+    href="pure-release-0.6.2/menus-min.css" />
+<link 
+    href="CSS/dantrang.css" rel="stylesheet" type="text/css" />
+<link 
+    href="CSS/custom.css" rel="stylesheet" type="text/css" />
+<link 
+    href="CSS/chu.css" rel="stylesheet" type="text/css" />
+<link 
+    href="CSS/menungang.css" rel="stylesheet" type="text/css"/>
+<link 
+    rel="stylesheet" type="text/css" href="pure-release-0.6.2/grids-responsive-min.css">  
+
+    <script >
+        (function (window, document) {
+            var menu = document.getElementById('menu'),
+                WINDOW_CHANGE_EVENT = 
+                ('onorientationchange' in window) ? 
+                'orientationchange' : 'resize';
+
+            function toggleHorizontal() {
+                [].forEach.call(
+                        document.getElementById('menu').querySelectorAll('.custom-can-transform'),
+                        function (el) {
+                            el.classList.toggle('pure-menu-horizontal');
+                        }
+                    );
+            };
+
+            function toggleMenu() {
+                if (menu.classList.contains('open')) {
+                    setTimeout(toggleHorizontal, 300);
+                }
+                else {
+                    toggleHorizontal();
+                }
+                menu.classList.toggle('open');
+                document.getElementById('toggle').classList.toggle('x');
+
+            };
+
+            function closeMenu() {
+                if (Menu.classList.con('open')) {
+                    toggleMenu();
+                }
+            }
+
+            document.getElementById('toggle').addEventListener('click', function (e) {
+                toggleMenu();
+                e.preventDefault();
+            });
+
+            window.addEventListener(WINDOW_CHANGE_EVENT, closeMenu);
+
+        }
+        )
+        (this, this.document);
+    </script>
+</head>
+<body style="background:url(../image/5.gif)">
+     <div style="position:fixed; float:right; 
+          right:10px; top:20%; z-index:9999; border:0px;">
+ 
+        </div>
+    
+    <div id="wraper" class="bogoc bongdo">
+        <div id="header" class="bogoc">
+            <div id="headerbanner">
+                <img src="image/1217.gif.GIF" 
+                    style="width: 304px; height: 245px" />
+            </div>
+            <div id="headerbannerR" class="bogoc">
+                <div id="slideshow" class="neoslideshow"> 
+                      <embed 
+                          src="http://amthuchathanh.com/CustomAds/dang_tin.swf" 
+                          type="application/x-shockwave-flash" 
+                          style="height: 227px; width: 665px">
+                                              &nbsp;
+                </div>
+            </div>
+        </div>
+        <div class="clear">Website Hoa tươi</div>
+        <div class="headermenu bogoc"></div>
+        <div class="clear"></div> 
+        <div class="headermenu bogoc">
+            <span class="cachvien10">
+                <marquee direction="left" 
+                    onmouseover="this.stop()" 
+                    onmouseout="this.start()" 
+                    loop="infinite" 
+                    WIDTH=100% 
+                    BEHAVIOR=scroll 
+                    SCROLLAMOUNT="9" >
+					         Shop Hoa Tươi Đà Lạt chuyên cung cấp Hoa Tươi với chất lượng hàng đầu Tỉnh Bình Dương  </marquee>
+            </span>
+            <div>
+              <p class="hidden">
+                  Responsive Horizontal-to-Vertical Menu  
+              </p>
+              <div class="custom-wrapper pure-g" id="menu" >
+                  <div class="pure-u-1 pure-u-md-1-3" >
+                      <div class="pure-menu">
+                        <a href="#" class="pure-menu-heading custom-brand"> Brand</a>
+                        <a href="#" 
+                        class="custom-toggle" id="toggle">
+                          <s class="bar"></s>  
+                          <s class="bar"></s>
+                        </a>
+                      </div>
+                  </div>
+            <p class="hidden">
+              Responsive Horizontal-to-Vertical Menu  
+            </p>
+              <div class="pure-u-1 pure-u-md-1-3" >
+                <div class="pure-menu 
+                      pure-menu-horizontal      
+                      custom-can-transform">
+                  <ul class="pure-menu-list">
+                    <li class="pure-menu-item">
+                      <a href="#" class="pure-menu-link">
+                      Home</a>
+                    </li>
+                    <li class="pure-menu-item">
+                      <a href="#" class="pure-menu-link">
+                      About</a>     </li>
+                    <li class="pure-menu-item">
+                      <a href="#" class="pure-menu-link">
+                      Contact</a>   </li>
+                </ul>
+              </div>
+            </div>    
+            <p class="hidden">
+              Responsive Horizontal-to-Vertical Menu 2
+            </p>
+              <div class="pure-u-1 pure-u-md-1-3" >
+                <div class="pure-menu 
+                            pure-menu-horizontal  
+                            custom-menu-3 
+                            custom-can-transform">
+                  <ul class="pure-menu-list">
+                    <li class="pure-menu-item">
+                      <a href="#" class="pure-menu-link">
+                      Yahoo</a>
+                    </li>
+                    <li class="pure-menu-item">
+                      <a href="#" class="pure-menu-link">
+                      W3C</a>     
+                    </li>
+                </ul>
+              </div>
+            </div>
+
+            </div>
+        </div>
+
+        </div>
+
+        <div class="clear"></div>
+
+
+    <div class="wraper bogoc">
+        <div class="left">
+            <div class="leftbar bogoc">       
+                <iframe width="295px" height="190px"
+                    src="https://www.youtube.com/embed/xX_3A82CZHQ"  frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+                       
+        </div>
+    <div class="contentkhung">
+        
+
+                    <div>
+                         <p>PHẦN THÂN CUA TRANG 2	</p>
+                    </div>
+    </div>
+
+
+
+
+                <div class="right">
+                    <div class="rightbar bogoc">
+                    
+                           <p>Menu tin tuc</p>
+                    </div>
+          
+                    <div class="rightbar bogoc">
+                           <p>Ho tro truc tuyen</p>
+                    </div>
+           
+                    <div class="clear">     </div>
+
+                    <div class="rightbar bogoc">
+                            <p>thong ke truy cap</p>
+                    </div>
+                    <div class="rightbar bogoc"></div>
+                </div>
+                <div class="clear"></div>
+  </div>
+         <div id="Div1" class="bogoc bongdo">
+                <div id="Div2" class="bogoc">
+                 <div id="footer">
+                        <div class="noidungfooter">
+                            Copyright © 2017 Shop Hoa Bích Nga .Phát triển bởi SENVIET.<br />
+                            Chúng tôi bán Hoa tươi trực tuyến và cung cấp thông tin trên website này.
+                        </div>
+                </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
